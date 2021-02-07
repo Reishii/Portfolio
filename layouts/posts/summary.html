@@ -1,0 +1,31 @@
+<!-- <div class="blog-post">
+    {{ if .Date }}
+    <div class="f6">
+        {{ .Date.Format "January 2, 2006" }}
+    </div>
+    {{ end }}
+    <h1 class="f3 near-black">
+        <a href="{{ .Permalink }}" class="title-link">
+            {{ .Title }}
+        </a>
+    </h1>
+    <div class="nested-links f6 lh-copy nested-copy-line-height">
+        {{ .Summary }}
+    </div>
+</div> -->
+<a href="{{ .Permalink }}" class="blog-post">
+    <div class="blog-post__img">
+        <img src="{{ .Params.featuredImage}}" alt="image from {{.Title}}">
+    </div>
+    <div class="blog-post__info">
+        <div class="blog-post__date">
+            {{ .Date.Format "January 2, 2006" }}
+        </div>
+        <h1 class="blog-post__title">
+            {{.Title}}
+        </h1>
+        <p class="blog-post__text">
+            {{.Summary}}
+        </p>
+    </div>
+</a>
