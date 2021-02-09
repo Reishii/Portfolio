@@ -3120,12 +3120,12 @@ img.emoji {
   text-decoration: none; }
   @media only screen and (max-width: 1068px) {
     .blog-post__img {
-      max-width: 30rem;
-      min-width: 30rem; } }
+      max-width: 20rem;
+      min-width: 20rem; } }
   @media only screen and (max-width: 768px) {
     .blog-post__img {
-      min-width: 100%;
-      max-width: 100%;
+      min-width: 80%;
+      max-width: 80%;
       transform: translate(0, -3rem); } }
 .grids {
   display: flex;
@@ -3164,6 +3164,12 @@ img.emoji {
   font-size: 1.4rem;
   color: #212121;
   text-decoration: none; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; }
 
 .content {
   flex: 1;
