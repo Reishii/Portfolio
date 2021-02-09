@@ -3219,12 +3219,12 @@ img.emoji {
     margin: 0; }
 
 .avatar img {
-  width: 20rem;
+  width: 30rem;
   height: auto;
   border-radius: 50%; }
   @media only screen and (max-width: 768px) {
     .avatar img {
-      width: 10rem; } }
+      width: 20rem; } }
 .list ul {
   margin: 3.2rem 0 3.2rem 0;
   list-style: none;
